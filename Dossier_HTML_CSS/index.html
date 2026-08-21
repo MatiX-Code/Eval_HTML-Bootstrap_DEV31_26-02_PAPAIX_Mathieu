@@ -14,7 +14,7 @@
     <header>
         <h1>Bienvenu Apprenti !</h1>
 
-        <h2>Tu cherches une introduction au HTML/CSS ? Alors tu as trouvé ton bonheur en arrivant ici ! Tu trouveras pourquoi apprendre l'HTML et le CSS, tes premières balises et quelques astuces !</h2>
+        <h2>Tu cherches une introduction au HTML/CSS ? Alors tu as trouvé ton bonheur en arrivant ici ! Tu trouveras pourquoi apprendre l'HTML, le CSS, tes premières balises et quelques astuces !</h2>
     </header>
 
     <!-- Articles -->
@@ -44,7 +44,7 @@
                 </tr>
                 <tr>
                     <td><pre><code>&lt;h1&gt; à &lt;h6&gt;</code></pre></td>
-                    <td> Permet de créer des titres à l'aide de différents tags h. Plus le chiffre est petit, plus le titre est grand</td>
+                    <td> Permet de créer des titres à l'aide de différents tags h. Plus le chiffre est petit, plus le titre est grand.</td>
                     <td><h1>Je suis un h1</h1><h3>Je suis un h3</h3><h6>Je suis un h6</h6></td>
                 </tr>
                 <tr>
@@ -69,7 +69,7 @@
                 <tr>
                     <td><pre><code>&lt;img&gt;</code></pre></td>
                     <td>Permet d'insérer une image</td>
-                    <td><img src="https://picsum.photos/200/100" alt="image aléatoire pour exemple"></td>
+                    <td><img src="https://picsum.photos/200" alt="image aléatoire pour exemple"></td>
                 </tr>
                 <tr>
                     <td><pre><code>&lt;audio&gt;</code></pre></td>
@@ -78,7 +78,7 @@
                 </tr>
                     <td><pre><code>&lt;video&gt;</code></pre></td>
                     <td>Permet d'ajouter du contenu video</td>
-                    <td><video controls width="200"</td>
+                    <td><video controls></video></td>
                 </tr>
             </table>
 
@@ -129,17 +129,19 @@
         <!-- Formulaire -->
         <h3>Si tu as une question, n'hésite pas !</h3>
 
-            <h4>Renseigne les informations suivantes :</h4>
-            <form action="" method="">
-            <fieldset>
-                <legend>Vos Infos</legend>
-                    <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-            </fieldset>
+        <h4>Renseigne les informations suivantes :</h4>
+        
+        <form action="" method="">
+            <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
+
+            <input type="email" name="email" id="email" placeholder="Email" required>
+
             <textarea name="message" id="message" rows="8" cols="40" placeholder="Ta question, remarque ou ce que tu veux nous dire" required></textarea>
-            <input type="checkbox" name="newsletter" id="newsletter">
-            <label for="newsletter">Je souhaite m'abonner à la newsletter</label>
+
+            <label for="newsletter">Je souhaite m'abonner à la newsletter<input type="checkbox" name="newsletter" id="newsletter"></label>
+
             <button type="submit" class="envoyer">Envoyer</button>
+
             <button type="reset" class="effacer">Effacer</button>
         </form>
     </main>
