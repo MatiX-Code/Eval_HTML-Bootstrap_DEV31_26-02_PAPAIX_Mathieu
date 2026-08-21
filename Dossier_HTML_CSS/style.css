@@ -1,0 +1,32 @@
+table{ 
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px black solid;
+    padding: 15px;
+}
+
+body{ 
+    background-color: #f0f0f0;
+}
+
+p{
+    color: #333333;
+    
+}
+a{
+    color: #3b82f6;
+}
+button:hover{
+    color :#3b82f6;
+}
+form{
+    color:#e0e0e0;
+}
+legend{
+    color: #333333;
+}
+label{
+    color: #333333;
+}
