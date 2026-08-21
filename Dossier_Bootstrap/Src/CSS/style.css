@@ -1,0 +1,6 @@
+.navbar-brand{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container-xl, .card-body{
+    background-color:#dfe3e7;
+}
